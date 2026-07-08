@@ -27,6 +27,8 @@ This repository contains my hands-on DevOps practice and learning projects.
 * funct.sh
 * market-case.sh
 * pract.sh
+
+
 * special.sh
 * while.sh
 
@@ -52,4 +54,6 @@ This repository contains my hands-on DevOps practice and learning projects.
 * CI/CD
 
 
+
+Learning Git Merge from Dark Mode Branch
 
