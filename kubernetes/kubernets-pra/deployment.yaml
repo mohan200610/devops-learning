@@ -1,12 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
-
 metadata:
-  name: my-dp
-
+  name: my-dply
 spec:
-  replicas: 2
-
+  replicas: 3
 
   selector:
     matchLabels:
@@ -16,9 +13,7 @@ spec:
     metadata:
       labels:
         app: nginx
-
     spec:
       containers:
-      - name: mohan
-        image: nginx
-
+        - name: sairam
+          image: nginx

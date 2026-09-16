@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bablu
+spec:
+  containers:
+    - name: mohan
+      image: busybox
+      command: [ "sh" ,"-c","sleep 3600"]
+      envFrom:
+        - configMapRef:
+            name: mohan
+
+      volumeMounts:
+        - name: config-volume
+          mountPath: /etc/config
+
+
+  volumes:
+    - name: config-volume
+      configMap:
+        name: mohan

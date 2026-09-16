@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mohan
+data:
+  APP_NAME: mohan
+  APP_PORT: "9000"
+  APP_ENV: configmap
