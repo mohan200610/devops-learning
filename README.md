@@ -54,10 +54,8 @@ This repository contains my hands-on DevOps practice and learning projects.
 * CI/CD
 
 
+## Git Merge Practice
 
-<<<<<<< HEAD
-Learning Git Merge from Main Branch
-=======
-Learning Git Merge from Dark Mode Branch
-
->>>>>>> dark-mode
+- Learned Git merge from the main branch.
+- Practiced merging the dark-mode branch.
+- Learning to identify and resolve merge conflicts.
